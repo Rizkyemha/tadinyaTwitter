@@ -9,7 +9,7 @@ jobs:
   automation-test-job:
     runs-on: ${{ matrix.os }}
 
-        strategy:
+      strategy:
       matrix:
         os: [ubuntu-latest]
         node-version: [16.19.1]
